@@ -47,7 +47,8 @@ def number_to_word(num):
             return ones_dict[hundreds_digit] + ' hundred and ' + tens_dict[tens_digit] + '-' + ones_dict[ones_digit]
 
 # Ask the user to input a number
-num = int(input("Please enter a number between 0 and 999: "))
+while True:
+    num = int(input("Please enter a number between 0 and 999: "))
 
-# Call the number_to_word function and print the result
-print(number_to_word(num))
+    # Call the number_to_word function and print the result
+    print(number_to_word(num))

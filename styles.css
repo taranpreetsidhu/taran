@@ -1,0 +1,88 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    width: 100vw;
+}
+.container{
+     background-image: url("login.jpg");
+     background-size: cover;
+     background-attachment: scroll;
+     height: 100vh;
+     opacity: .9;
+}
+.main{
+    width: 300px;
+    margin: 100px auto 0px auto;
+
+}
+.register{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -50%);
+    width: 400px;
+    height: 550px;
+    padding: 50px;
+    background: whitesmoke;
+    border-radius: 10px;
+}
+h2{
+    text-align: center;
+   
+}
+.main label{
+    font-size: 16px;
+    font-family: sans-serif;  
+}
+.main input[type="text"]{
+    width: 100%;
+    border: 1px solid burlywood;
+    border-radius: 3px;
+    outline: 0;
+    padding: 4px;
+    background-color: #ffff
+}.main input[type="number"]{
+    width: 100%;
+    border: 1px solid burlywood;
+    border-radius: 3px;
+    outline: 0;
+    padding: 4px;
+    background-color: #ffff
+}
+.main input[type="email"]{
+    width: 100%;
+    border: 1px solid burlywood;
+    border-radius: 3px;
+    outline: 0;
+    padding: 4px;
+    background-color: #ffff
+}
+.main input[type="password"]{
+    width: 100%;
+    border: 1px solid burlywood;
+    border-radius: 3px;
+    outline: 0;
+    padding: 4px;
+    background-color: #ffff
+}
+.main input[type="radio"]{
+    width: 20%;
+    
+}
+
+.register input[type="submit"]{
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 7px;
+    cursor: pointer;
+    border: 1px solid black;
+    margin: auto;
+    text-align: center;
+    background-color: sienna;
+}
+.avatar {
+    text-align:center;
+   
+}
